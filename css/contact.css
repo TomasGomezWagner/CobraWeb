@@ -1,0 +1,48 @@
+div h2{
+    margin:1rem auto;
+    text-align: center;
+}
+
+form{
+    width: 50%;
+    margin: auto;
+    
+}
+form div{
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    font-weight: bold;
+    padding-top: 1rem;
+}
+label{
+    margin-right: 1rem;
+}
+.first-inputs input{
+    background-color: rgb(78, 72, 72);
+    color: #fff;
+    height: 1.5rem;
+    width: 19rem;
+}
+textarea{
+    background-color: rgb(78, 72, 72);
+    color: #fff;
+}
+.first-inputs label{
+    color:#000;
+}
+.radios input{
+    width: fit-content;
+}
+@media screen and (min-width:767px) and (max-width:1280px) {
+    
+    form{
+        width: 75%;
+    }
+    
+}
+@media screen and (max-width:767px) {
+    form{
+        width: 75%;
+    }
+}
